@@ -32,7 +32,7 @@ class PegawaiController extends Controller
             'AI'
         ];
 
-        // Format tanggal masuk kerja
+        //format tanggal masuk kerja
         $data['join_date'] = date('d M Y', strtotime($joinDateString));
 
         // Hitung lama bekerja dalam hari

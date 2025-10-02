@@ -36,5 +36,5 @@ Route::get('/mahasiswa/{param1}', [MahasiswaController::class, 'show']);
 
 Route::get('/home', [HomeController::class, 'index']);
 
-//untuk menampilkan data pegawai
+// Untuk menampilkan data pegawai
 Route::get('/pegawai', [PegawaiController::class, 'index']);
